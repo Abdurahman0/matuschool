@@ -1,16 +1,16 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 function NavbarLinks({ name, href }) {
 	return (
 		<div>
-			<NavLink
-				className={
-					'w-[62px] h-[28px] text-white text-[20px] leading-[27px] font-[500]'
-				}
+			<Link
 				to={href}
+				smooth={true}
+				duration={500}
+				className='w-[62px] h-[28px] text-white text-[20px] leading-[27px] font-[500] cursor-pointer'
 			>
 				{name}
-			</NavLink>
+			</Link>
 		</div>
 	)
 }

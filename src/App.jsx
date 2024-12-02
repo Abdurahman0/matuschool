@@ -1,3 +1,4 @@
+import Answers from './components/Answers'
 import Hero from './components/Hero'
 import Lessons from './components/Lessons'
 import Navbar from './components/Navbar'
@@ -12,6 +13,7 @@ function App() {
 			<Lessons />
 			<Teaching />
 			<Students />
+			<Answers />
 		</div>
 	)
 }

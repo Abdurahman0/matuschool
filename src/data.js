@@ -7,9 +7,9 @@ import cake2 from '/public/cake2.png'
 import cake3 from '/public/cake3.png'
 
 export const navlinks = [
-	{ name: 'Акции', href: '/sale' },
-	{ name: 'Отзывы', href: '/coments' },
-	{ name: 'Техподдержка', href: '/help' },
+	{ name: 'Акции', href: 'sale' },
+	{ name: 'Отзывы', href: 'coments' },
+	{ name: 'Техподдержка', href: 'help' },
 ]
 
 export const forYouData = [
