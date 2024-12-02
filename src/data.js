@@ -5,6 +5,8 @@ import person from '/public/Person.png'
 import cake1 from '/public/cake1.png'
 import cake2 from '/public/cake2.png'
 import cake3 from '/public/cake3.png'
+import clean from '/Clean 2.png'
+import cake from '/cake.png'
 
 export const navlinks = [
 	{ name: 'Акции', href: 'sale' },
@@ -111,5 +113,20 @@ export const StudentData = [
 			'Я всегда любила готовить, но тортами никогда не занималась. Этот курс помог мне раскрыть новый талант и узнать столько нового! Спасибо за внимание к деталям и индивидуальный подход. Теперь у меня есть все знания и навыки, чтобы радовать близких и клиентов восхитительными тортами.',
 		score: '4.2',
 		date: '6 марта 2024 год',
+	},
+]
+
+export const HeroData = [
+	{
+		title: 'MATU SCHOOL',
+		text: 'Научись готовить самые вкусные, натуральные и разнообразные десерты!',
+		text2: '',
+		image: clean,
+	},
+	{
+		title: 'Видео-уроки',
+		text: 'Технологические карты',
+		text2: 'Технологические карты и проверенные рецепты тортов',
+		image: cake,
 	},
 ]

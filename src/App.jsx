@@ -4,12 +4,15 @@ import Lessons from './components/Lessons'
 import Navbar from './components/Navbar'
 import Students from './components/Students'
 import Teaching from './components/Teaching'
+import { HeroData } from './data'
 
 function App() {
 	return (
 		<div>
 			<Navbar />
-			<Hero />
+			{HeroData.slice(0, 1).map((item, idx) => (
+				<Hero key={idx} {...item} />
+			))}
 			<Lessons />
 			<Teaching />
 			<Students />
