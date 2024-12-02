@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
 import Lessons from './components/Lessons'
 import Navbar from './components/Navbar'
+import Students from './components/Students'
 import Teaching from './components/Teaching'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 			<Hero />
 			<Lessons />
 			<Teaching />
+			<Students />
 		</div>
 	)
 }
