@@ -6,22 +6,22 @@ export const navlinks = [
 
 export const forYouData = [
 	{
-		icon: '/public/assets/Mask group.png',
+		icon: '/public/Mask group.png',
 		title: 'Любитель',
 		text: 'Хотите научится готовить вкусные и красивые торты для себя и близких',
 	},
 	{
-		icon: '/public/assets/Star.png',
+		icon: '/public/Star.png',
 		title: 'Новичок',
 		text: 'Очень хотите начать, но сомневаетесь, что сможете так же, как и другие кондитеры',
 	},
 	{
-		icon: '/public/assets/Hat.png',
+		icon: '/public/Hat.png',
 		title: 'Опытный',
 		text: 'Вы уже опытный кондитер и хотите расширить свой ассортимент',
 	},
 	{
-		icon: '/public/assets/Person.png',
+		icon: '/public/Person.png',
 		title: 'Ученик',
 		text: 'Хотите освоить новый вид деятельности и начать на этом зарабатывать',
 	},
@@ -53,12 +53,12 @@ export const aboutData = [
 
 export const imageData = [
 	{
-		image: '/public/assets/cake1.png',
+		image: '/public/cake1.png',
 	},
 	{
-		image: '/public/assets/cake2.png',
+		image: '/public/cake2.png',
 	},
 	{
-		image: '/public/assets/cake3.png',
+		image: '/public/cake3.png',
 	},
 ]
