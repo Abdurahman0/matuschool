@@ -2,26 +2,28 @@ import { NavLink } from 'react-router-dom'
 
 function Hero({ title, text, text2, image }) {
 	return (
-		<div className='container flex justify-between bg-[#EDBFE3]'>
-			<div className='flex flex-col items-start mt-[150px] ml-[360px]'>
+		<div className='container mx-auto flex flex-col lg:flex-row items-center justify-between bg-[#EDBFE3] p-4 lg:p-0'>
+			{/* Left Section */}
+			<div className='flex flex-col items-start lg:mt-[150px] lg:ml-[50px] text-center lg:text-left'>
 				<h1
-					className={`w-[523px] h-[276px] font-[400] text-[120px] uppercase leading-[138px] text-[#7A7156] ${
-						text2 && 'text-[80px] leading-[92px] -mb-24'
+					className={`font-[400] uppercase text-[#7A7156] ${
+						text2
+							? 'text-[80px] leading-[92px] lg:text-[120px] lg:leading-[138px]'
+							: 'text-[120px] leading-[138px]'
 					}`}
 				>
 					{title}
 				</h1>
-				<p className='w-[580px] mt-[40px] text-white h-[72px] font-[400] text-[26px] leading-[35px]'>
+				<p className='mt-4 text-white font-[400] text-[20px] lg:text-[26px] leading-[30px] lg:leading-[35px]'>
 					{text}
 				</p>
 				{text2 && (
-					<p className='w-[580px] -mt-10 mb-10 text-white h-[60px] font-[400] text-[26px] leading-[35px]'>
+					<p className='mt-2 mb-4 text-white font-[400] text-[20px] lg:text-[26px] leading-[30px] lg:leading-[35px]'>
 						{text2}
 					</p>
 				)}
-
-				<button className='w-[355px] h-[104px] focus:outline-none mt-[30px] bg-transparent hover:border-none border-none outline-none'>
-					<NavLink to={'/lesson'}>
+				<button className='w-[260px] lg:w-[355px] bg-[#EDBFE3] h-[80px] lg:h-[104px] mt-6 focus:outline-none'>
+					<NavLink to='/lesson'>
 						<img
 							src='/lessonbtn.png'
 							alt='Lesson Button'
@@ -30,13 +32,13 @@ function Hero({ title, text, text2, image }) {
 					</NavLink>
 				</button>
 			</div>
-			<div className='flex h-[800px] flex-col justify-center items-center'>
+
+			{/* Right Section */}
+			<div className='flex justify-center items-center mt-10 lg:mt-0'>
 				<img
 					src={image}
-					width={700}
-					height={700}
-					className='mt-[136px] overflow-hidden'
-					alt=''
+					className='w-[300px] object-scale-down h-[300px] pt-32 lg:w-[700px] lg:h-[700px]'
+					alt='Hero'
 				/>
 			</div>
 		</div>

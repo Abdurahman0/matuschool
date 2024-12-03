@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 function Navbar() {
 	return (
-		<div className='container z-20 fixed top-0 mx-auto flex justify-around gap-20px bg-[#EDBFE3]'>
+		<div className='container z-20 fixed mx-auto flex justify-around gap-20px bg-[#EDBFE3]'>
 			<NavLink to={'/'} className='my-2 flex items-center gap-3'>
 				<img src={'/matuschool.png'} width={105} height={93} />
 				<p className='text-[20px] leading-[27px] font-[500] text-center w-[170px] text-white h-[40px]'>

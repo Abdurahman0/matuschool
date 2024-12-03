@@ -8,7 +8,7 @@ import { HeroData } from './data'
 
 function App() {
 	return (
-		<div>
+		<div className='container mx-auto'>
 			<Navbar />
 			{HeroData.slice(0, 1).map((item, idx) => (
 				<Hero key={idx} {...item} />
