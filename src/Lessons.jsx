@@ -7,13 +7,13 @@ import { HeroData } from './data'
 
 function Lessons() {
 	return (
-		<div>
+		<>
 			<Navbar />
 			{HeroData.slice(1).map((item, idx) => (
 				<Hero key={idx} {...item} />
 			))}
 			<LessonsSection />
-			<div className='bg-[#EDBFE3] mt-10'>
+			<div className='bg-[#EDBFE3] mt-10 container'>
 				<img
 					src='/Sale.png'
 					alt=''
@@ -23,7 +23,7 @@ function Lessons() {
 				/>
 				<Students />
 			</div>
-			<div className='mt-10'>
+			<div className='mt-10 w-full mx-auto'>
 				<img
 					src='/whatsonthelist.png'
 					width={900}
@@ -33,7 +33,7 @@ function Lessons() {
 				/>
 			</div>
 			<Works />
-		</div>
+		</>
 	)
 }
 

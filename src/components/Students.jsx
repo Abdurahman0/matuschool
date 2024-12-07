@@ -13,7 +13,7 @@ function Students() {
 	const swiperRef = useRef()
 
 	return (
-		<div className='container' id='coments'>
+		<div className='w-full mx-auto' id='coments'>
 			<h1 className='uppercase font-[700] text-[80px] leading-[92px] pt-10 text-center text-[#7A7156]'>
 				Ученики
 			</h1>

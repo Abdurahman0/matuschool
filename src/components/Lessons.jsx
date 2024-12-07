@@ -4,7 +4,7 @@ import ForYou from '@/shared/ForYou'
 
 function Lessons() {
 	return (
-		<div className='container'>
+		<div className='mx-auto w-full'>
 			<h1 className='mt-10 text-[80px] text-[#7A7156] font-[700] leading-[92px] text-center'>
 				МОИ УРОКИ
 			</h1>
@@ -16,7 +16,7 @@ function Lessons() {
 					<ForYou {...item} key={idx} />
 				))}
 			</div>
-			<div className='mt-5 flex'>
+			<div className='mt-5 flex container'>
 				<img src='/Leader.png' width={700} height={700} alt='' />
 				<div>
 					<p className='font-[500] mt-10 text-[36px] leading-[49px] text-[#7A7156]'>
