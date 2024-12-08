@@ -13,7 +13,7 @@ function Lessons() {
 				<Hero key={idx} {...item} />
 			))}
 			<LessonsSection />
-			<div className='bg-[#EDBFE3] mt-10 container'>
+			<div className='bg-[#EDBFE3] mt-10 w-full mx-auto'>
 				<img
 					src='/Sale.png'
 					alt=''
@@ -21,6 +21,7 @@ function Lessons() {
 					width={1270}
 					height={448}
 				/>
+
 				<Students />
 			</div>
 			<div className='mt-10 w-full mx-auto'>

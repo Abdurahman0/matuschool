@@ -11,12 +11,12 @@ function Lessons() {
 			<p className='font-[500] text-[36px] text-[#7A7156] text-center leading-[49px]'>
 				для вас, если вы:
 			</p>
-			<div className='flex items-center justify-center gap-5 my-10'>
+			<div className='flex md:grid md:grid-cols-2 md:gap-10 items-center justify-center flex-col xl:flex-row gap-10 sm:gap-5 my-10'>
 				{forYouData.map((item, idx) => (
 					<ForYou {...item} key={idx} />
 				))}
 			</div>
-			<div className='mt-5 flex container'>
+			<div className='mt-5 flex flex-col items-center xl:flex-row'>
 				<img src='/Leader.png' width={700} height={700} alt='' />
 				<div>
 					<p className='font-[500] mt-10 text-[36px] leading-[49px] text-[#7A7156]'>

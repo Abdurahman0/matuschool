@@ -20,7 +20,7 @@ function Students() {
 			<p className='font-[500] text-[36px] leading-[49px] text-center text-[#7A7156]'>
 				довольные результатом обучения
 			</p>
-			<div className='mt-3 mx-auto flex justify-center items-center gap-6'>
+			<div className='mt-3 mx-auto w-full flex justify-center items-center gap-2'>
 				{/* Left Button */}
 				<button
 					onClick={() => swiperRef.current?.slidePrev()}
@@ -31,7 +31,7 @@ function Students() {
 				</button>
 
 				{/* Swiper Component */}
-				<div className='w-full max-w-[1200px]'>
+				<div className='max-w-96 xl:max-w-[1150px]'>
 					<Swiper
 						direction='horizontal'
 						modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -43,7 +43,7 @@ function Students() {
 							640: {
 								slidesPerView: 1,
 							},
-							1040: {
+							1280: {
 								slidesPerView: 3,
 							},
 						}}

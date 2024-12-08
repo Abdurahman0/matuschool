@@ -1,24 +1,34 @@
-import { createContext } from 'react'
+/* eslint-disable react-refresh/only-export-components */
+import { createContext, useContext } from 'react'
+import {
+	navlinks,
+	forYouData,
+	aboutData,
+	imageData,
+	StudentData,
+	HeroData,
+	LessonData,
+} from '../data.js' // Adjust the import path as needed
 
-// eslint-disable-next-line react-refresh/only-export-components
-export const LessonCard = createContext()
+// Create Context
+const DataContext = createContext()
 
-const LessonContextProvider = props => {
-	const cost = '$'
-	const title = ''
-	const image = ''
-	const description = ''
-
+// Create Provider Component
+export const DataProvider = ({ children }) => {
 	const value = {
-		cost,
-		title,
-		image,
-		description,
+		navlinks,
+		forYouData,
+		aboutData,
+		imageData,
+		StudentData,
+		HeroData,
+		LessonData,
 	}
 
-	return (
-		<LessonCard.Provider value={value}>{props.children}</LessonCard.Provider>
-	)
+	return <DataContext.Provider value={value}>{children}</DataContext.Provider>
 }
 
-export default LessonContextProvider
+// Custom Hook for easier consumption
+export const useData = () => {
+	return useContext(DataContext)
+}

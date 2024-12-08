@@ -1,12 +1,17 @@
-function SeparatwLesson({ image, title, description, cost, id }) {
+import { useData } from '@/context/lesson-context'
+
+function SeparatwLesson() {
+	const { LessonData } = useData()
+	console.log(LessonData[0])
+
 	return (
-		<div key={id} className=''>
-			<img src={image} alt='' />
+		<div className=''>
+			<img src='' alt='' />
 			<div className=''>
-				<h1>{title}</h1>
-				<span>{cost}</span>
+				<h1>{}</h1>
+				<span>{}</span>
 				<button>Купить рецепт</button>
-				<p>{description}</p>
+				<p>{}</p>
 
 				<p>Состав урока:</p>
 				<ol>

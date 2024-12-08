@@ -3,10 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function LessonCard({ image, title, description, cost, id }) {
 	return (
-		<NavLink
-			to={id}
-			className='w-[360px] my-10 flex flex-col mx-auto col-span-1 h-[720px] rounded-[14px] shadow-2xl shadow-gray-900 bg-[#D9D9D9]'
-		>
+		<NavLink className='w-[360px] my-10 flex flex-col mx-auto col-span-1 h-[720px] rounded-[14px] shadow-2xl shadow-gray-900 bg-[#D9D9D9]'>
 			<div className='relative'>
 				<img
 					src={image}

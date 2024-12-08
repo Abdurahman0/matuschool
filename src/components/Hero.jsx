@@ -5,12 +5,12 @@ function Hero({ title, text, text2, image }) {
 		<div className='w-full mx-auto'>
 			<div className='flex items-center justify-between bg-[#EDBFE3] p-4 lg:p-0'>
 				{/* Left Section */}
-				<div className='container flex flex-col items-start lg:mt-[150px] lg:ml-[50px] text-center lg:text-left'>
+				<div className='container pt-10 flex flex-col items-start lg:mt-[150px] lg:ml-[50px] text-center lg:text-left'>
 					<h1
-						className={`font-[400] uppercase text-[#7A7156] ${
+						className={`font-[400] pt-14 lg:pt-10 xl:text-[120px] uppercase text-[#7A7156] ${
 							text2
-								? 'text-[80px] leading-[92px] lg:text-[120px] lg:leading-[138px]'
-								: 'text-[120px] leading-[138px]'
+								? 'md:text-[80px] md:leading-[92px] text-3xl lg:text-[120px] lg:leading-[138px]'
+								: 'md:text-[120px] md:leading-[138px] text-3xl'
 						}`}
 					>
 						{title}

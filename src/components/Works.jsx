@@ -1,14 +1,12 @@
 function Works() {
 	return (
-		<div className='text-white bg-[#EDBFE3]'>
-			<p className='ml-[360px] font-[500] pt-10 text-[36px] leading-[49px]'>
-				Работы
-			</p>
-			<h2 className='uppercase ml-[360px] font-[700] text-[80px] leading-[100px]'>
+		<div className='text-white w-full mx-auto bg-[#EDBFE3]'>
+			<p className='font-[500] pt-10 text-[36px] leading-[49px]'>Работы</p>
+			<h2 className='uppercase font-[700] text-[80px] leading-[100px]'>
 				учеников
 			</h2>
 
-			<div className='flex justify-center items-center mt-10'>
+			<div className='flex justify-center items-center flex-wrap mt-10'>
 				<img
 					src='/Rectangle1.png'
 					width={371}

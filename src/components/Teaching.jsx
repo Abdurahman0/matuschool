@@ -11,7 +11,7 @@ function Teaching() {
 				<p className='font-[500] text-[36px] leading-[49px] text-center text-white'>
 					может быть таким
 				</p>
-				<div className='flex items-center justify-center w-[1000px] mx-auto'>
+				<div className='flex flex-col xl:flex-row items-center justify-center w-full md:w-[800px] xl:w-[1000] mx-auto'>
 					{imageData.map((item, idx) => (
 						<ImageCards key={idx} {...item} />
 					))}
