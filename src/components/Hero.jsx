@@ -35,7 +35,7 @@ function Hero({ title, text, text2, image }) {
 					<div className='md:pt-10 flex justify-center items-center md:mt-10 lg:mt-0'>
 						<img
 							src={image}
-							className='w-[300px] object-contain h-[300px] md:pt-20 lg:w-full lg:h-[900px]'
+							className='w-[300px] object-contain h-[300px] md:pt-20 lg:w-full lg:h-[1000px]'
 							alt='Hero'
 						/>
 					</div>

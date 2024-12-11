@@ -275,3 +275,30 @@ export const LessonData = [
 		cost: '2 990',
 	},
 ]
+
+export const CakeCardData = [
+	{
+		number: 1,
+		title: 'бисквит',
+		title2: '',
+		src: 'https://www.youtube.com/embed/h5s2eGfxs7Q?si=9Z6g9QI1MWEjh5i7',
+	},
+	{
+		number: 2,
+		title: 'НАЧИНКИ КЛУБНИЧНЫЙ',
+		title2: 'МУСС И КЛУБНИЧНЫЙ КУЛИ',
+		src: 'https://www.youtube.com/embed/h5s2eGfxs7Q?si=9Z6g9QI1MWEjh5i7',
+	},
+	{
+		number: 3,
+		title: 'КРЕМ ДЛЯ СБОРКИ',
+		title2: '',
+		src: 'https://www.youtube.com/embed/h5s2eGfxs7Q?si=9Z6g9QI1MWEjh5i7',
+	},
+	{
+		number: 4,
+		title: 'СБОРКА',
+		title2: '',
+		src: 'https://www.youtube.com/embed/h5s2eGfxs7Q?si=9Z6g9QI1MWEjh5i7',
+	},
+]
