@@ -14,10 +14,10 @@ function Students() {
 
 	return (
 		<div className='w-full mx-auto' id='coments'>
-			<h1 className='uppercase font-[700] text-[80px] leading-[92px] pt-10 text-center text-[#7A7156]'>
+			<h1 className='uppercase text-3xl md:font-[700] md:text-[80px] md:leading-[92px] pt-10 text-center text-[#7A7156]'>
 				Ученики
 			</h1>
-			<p className='font-[500] text-[36px] leading-[49px] text-center text-[#7A7156]'>
+			<p className='md:font-[500] md:text-[36px] text-xl md:leading-[49px] text-center text-[#7A7156]'>
 				довольные результатом обучения
 			</p>
 			<div className='mt-3 mx-auto w-full flex justify-center items-center gap-2'>
@@ -25,7 +25,7 @@ function Students() {
 				<button
 					onClick={() => swiperRef.current?.slidePrev()}
 					style={{ height: '50px', width: '50px' }}
-					className='custom-prev focus:outline-none bg-[#EFC6E6] text-white p-4 rounded-full transition-all'
+					className='custom-prev hidden sm:flex focus:outline-none bg-[#EFC6E6] text-white p-4 rounded-full transition-all'
 				>
 					<FaArrowLeft color='#7A7156' />
 				</button>
@@ -62,7 +62,7 @@ function Students() {
 
 				{/* Right Button */}
 				<button
-					className='custom-next bg-[#EFC6E6] text-white focus:outline-none p-4 rounded-full transition-all'
+					className='custom-next hidden sm:flex bg-[#EFC6E6] text-white focus:outline-none p-4 rounded-full transition-all'
 					onClick={() => swiperRef.current?.slideNext()}
 					style={{ height: '50px', width: '50px' }}
 				>

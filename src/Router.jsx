@@ -3,6 +3,7 @@ import App from './App'
 import { createBrowserRouter } from 'react-router-dom'
 import Lessons from './Lessons'
 import SeparatwLesson from './components/SeparatwLesson'
+import Room from './Room'
 
 const router = createBrowserRouter([
 	{
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
 	{
 		path: '/lesson',
 		element: <Lessons />,
+	},
+	{
+		path: '/room',
+		element: <Room />,
 	},
 	{
 		path: '/lesson/:id',

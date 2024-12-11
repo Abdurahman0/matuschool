@@ -7,6 +7,7 @@ import cake2 from '/public/cake2.png'
 import cake3 from '/public/cake3.png'
 import clean from '/Clean 2.png'
 import cake from '/cake.png'
+import hero3 from '/hero3.png'
 
 export const navlinks = [
 	{ name: 'Акции', href: 'sale' },
@@ -128,6 +129,12 @@ export const HeroData = [
 		text: 'Технологические карты',
 		text2: 'Технологические карты и проверенные рецепты тортов',
 		image: cake,
+	},
+	{
+		title: 'Приветствую Вас!',
+		text: 'На этой странице вы найдете материалы урока. Готовьте с удовольствием !',
+		text2: '',
+		image: hero3,
 	},
 ]
 

@@ -9,7 +9,7 @@ function Lessons() {
 	return (
 		<>
 			<Navbar />
-			{HeroData.slice(1).map((item, idx) => (
+			{HeroData.slice(1, 2).map((item, idx) => (
 				<Hero key={idx} {...item} />
 			))}
 			<LessonsSection />

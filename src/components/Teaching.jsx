@@ -5,10 +5,10 @@ function Teaching() {
 	return (
 		<div className='w-full mx-auto'>
 			<div className='bg-[#EDBFE3] mt-2'>
-				<h1 className='font-[700] text-[80px] leading-[92px] text-center uppercase text-white pt-24'>
+				<h1 className='text-3xl md:font-[700] md:text-[80px] md:leading-[92px] text-center uppercase text-white mt:pt-24'>
 					обучение
 				</h1>
-				<p className='font-[500] text-[36px] leading-[49px] text-center text-white'>
+				<p className='md:font-[500] md:text-[36px] md:leading-[49px] text-xl text-center text-white'>
 					может быть таким
 				</p>
 				<div className='flex flex-col xl:flex-row items-center justify-center w-full md:w-[800px] xl:w-[1000] mx-auto'>
