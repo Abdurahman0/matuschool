@@ -13,7 +13,7 @@ function Lessons() {
 				<Hero key={idx} {...item} />
 			))}
 			<LessonsSection />
-			<div className='bg-[#EDBFE3] mt-10 w-full mx-auto'>
+			<div className='bg-[#EDBFE3] mt-10 w-full mx-auto' id='sale'>
 				<img
 					src='/Sale.png'
 					alt=''

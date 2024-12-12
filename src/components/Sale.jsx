@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function Sale() {
 	return (
-		<div className='w-full mx-auto pt-10 bg-[#EDBFE3]'>
+		<div className='w-full mx-auto pt-10 bg-[#EDBFE3]' id='sale'>
 			<div className='flex items-center justify-center flex-col'>
 				<div className='bg-white md:w-[700px] w-[350px] h-[200px] border rounded-xl md:h-[300px] flex '>
 					<div className='flex flex-col gap-y-2 items-center justify-center'>
@@ -37,7 +37,7 @@ function Sale() {
 							следующую покупку рецепту
 						</p>
 						<button className='w-[260px] lg:w-[355px] h-[80px] lg:h-[104px] mt-6 focus:outline-none'>
-							<NavLink to='/'>
+							<NavLink to='/lesson'>
 								<img
 									src='/SaleBtn.png'
 									alt='Lesson Button'

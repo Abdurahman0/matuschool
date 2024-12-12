@@ -4,6 +4,7 @@ import { createBrowserRouter } from 'react-router-dom'
 import Lessons from './Lessons'
 import SeparatwLesson from './components/SeparatwLesson'
 import Room from './Room'
+import Help from './Help'
 
 const router = createBrowserRouter([
 	{
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
 	{
 		path: '/room',
 		element: <Room />,
+	},
+	{
+		path: '/help',
+		element: <Help />,
 	},
 	{
 		path: '/lesson/:id',

@@ -69,14 +69,14 @@ function MobileModal() {
 			>
 				<ul className='flex flex-col gap-5 p-6'>
 					<li className='hover:scale-100 hover:font-bold font-medium transition-all duration-300'>
-						<NavLink to='/sale' onClick={e => handleLinkClick('/sale', e)}>
+						<NavLink to='#sale' onClick={e => handleLinkClick('#sale', e)}>
 							Акции
 						</NavLink>
 					</li>
 					<li className='hover:scale-100 hover:font-bold font-medium transition-all duration-300'>
 						<NavLink
-							to='/coments'
-							onClick={e => handleLinkClick('/coments', e)}
+							to='#coments'
+							onClick={e => handleLinkClick('#coments', e)}
 						>
 							Отзывы
 						</NavLink>
